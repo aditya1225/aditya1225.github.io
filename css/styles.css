@@ -254,12 +254,12 @@ lc-container {
     background-color: #fff;
     text-align: center;
     padding: 10px;
-    max-width: 400px; /* Adjust the container width */
+    max-width: 200px; /* Adjust the container width */
     margin: 0 auto;
 }
 
 lcImage {
-    max-width: 80%; /* Shrinks the image width */
+    max-width: 50%; /* Shrinks the image width */
     height: auto; /* Maintains aspect ratio */
     margin: 0 auto;
 }
