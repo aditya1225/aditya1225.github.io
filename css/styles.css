@@ -238,6 +238,48 @@ sup {
   vertical-align: baseline;
 }
 
+/* div.lc-container {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+div.lc-container img[alt] {
+  margin-left: -16px;
+  text-indent: 16px;
+} */
+
+lc-container {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+  min-height: 0;
+}
+
+/* div.lc-container img[alt] {
+  /* margin-left: -100px;
+  text-indent: 140px; */
+
+lc-loading-text {
+  position: relative;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  opacity: 0.9  ;
+  text-align: center;
+  /* text-shadow: gray 2px 0 10px; */
+}
+
+lc {
+  color: black;
+  font-size: 20px;
+  z-index: 1;
+}
+
+lc.img[height="100"] {
+  display: none;
+}
+
 sub {
   bottom: -0.25em;
 }
