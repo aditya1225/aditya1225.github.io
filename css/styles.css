@@ -567,6 +567,10 @@ progress {
   }
 }
 
+.dev-icons i {
+  font-size: 1.5rem;
+}
+
 .display-3 {
   font-size: calc(1.525rem + 3.3vw);
   font-weight: 300;
